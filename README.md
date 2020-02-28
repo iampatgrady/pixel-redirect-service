@@ -4,7 +4,7 @@ This app can run on your local node environment.
 *TODO* - configure for AppEngine
 
 ```bash
-git clone <username>@bitbucket.org:analyticspros/pixel-redirect.git  
+git clone https://github.com/iampatgrady/pixel-redirect-service.git 
 npm install  
 npm test  
 npm start   
