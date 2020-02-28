@@ -1,29 +1,15 @@
-# README #
+# Pixel Redirect - README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This app can run on your local node environment. TODO - configure for AppEngine
 
-### What is this repository for? ###
+'''
+git clone git@bitbucket.org:analyticspros/pixel-redirect.git
+npm install
+npm test
+npm start
+'''
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### What is Pixel Redirect for? ###
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* This is a proof of concept demo of a server side pixel forwarding service
+* v1.0 by Pat Grady @ Adswerve 2020
