@@ -3,6 +3,7 @@
 This app can run on your local node environment.  
 *TODO* - configure for AppEngine
 
+## INSTALL & RUN:
 ```bash
 git clone https://github.com/iampatgrady/pixel-redirect-service.git 
 cd pixel-redirect-service
