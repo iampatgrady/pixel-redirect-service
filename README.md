@@ -5,6 +5,7 @@ This app can run on your local node environment.
 
 ```bash
 git clone https://github.com/iampatgrady/pixel-redirect-service.git 
+cd pixel-redirect-service
 npm install  
 npm test  
 npm start   
