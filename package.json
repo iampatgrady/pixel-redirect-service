@@ -2,11 +2,19 @@
   "name": "pix_redir",
   "version": "1.0.0",
   "description": "pats pixel redirect service",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "jest --coverage --detectOpenHandles"
   },
   "author": "pat grady",
-  "license": "ISC",
-  "keywords": []
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {
+    "body-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  }
 }
