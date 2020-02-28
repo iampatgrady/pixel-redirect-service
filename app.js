@@ -45,7 +45,6 @@ app.post('/', cors(corsOptions), (req, res, next) => {
 });
 
 const PORT = process.env.PORT || '8080';
-/* istanbul ignore next */
 if (process.env.NODE_ENV !== 'test') {
   app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}`);
